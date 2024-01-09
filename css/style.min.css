@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.effect {
+  width: 15px;
+  height: 15px;
+  background: red;
+  position: absolute;
+  border-radius: 50%;
+  animation: glow 1s infinite;
+}
+
+@keyframes glow {
+  0% {
+    background: blue;
+    transform: scale(1);
+  }
+  10% {
+    background: red;
+  }
+  20% {
+    background: yellow;
+  }
+  30% {
+    background: salmon;
+  }
+  40% {
+    background: cadetblue;
+  }
+  50% {
+    background: green;
+  }
+  60% {
+    background: aqua;
+  }
+  70% {
+    background: gold;
+  }
+  80% {
+    background: darkblue;
+  }
+  90% {
+    background: purple;
+  }
+  100% {
+    background: pink;
+    transform: scale(0.3);
+  }
+}
